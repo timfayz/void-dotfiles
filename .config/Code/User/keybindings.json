@@ -1,0 +1,11 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "shift+`",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "alt+f",
+        "command": "workbench.action.minimizeOtherEditors"
+    }
+]

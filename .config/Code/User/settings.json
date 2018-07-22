@@ -1,0 +1,10 @@
+{
+    "window.zoomLevel": 0,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
+    "workbench.activityBar.visible": false,
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "'monospace', 'Droid Sans Mono', monospace, 'Droid Sans Fallback'",
+    "terminal.integrated.rendererType": "dom",
+}
