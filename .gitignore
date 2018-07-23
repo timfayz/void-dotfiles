@@ -7,10 +7,11 @@
 !.bashrc
 !.bash_profile
 !.gitconfig
+!.structure
 !.config/vis/**
 !.config/zathura/**
 !.config/pcmanfm/**
 !.config/gpick/**
 !.config/viewnior/*.conf
-!.config/fontconfig/*
+!.config/fontconfig/**
 !.config/Code/User/*/*
