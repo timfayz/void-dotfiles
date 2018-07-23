@@ -1,17 +1,20 @@
-Personal data
-  |etc|      --Linux system-wide settings backup
-  |dotfiles| --Linux application settings backup
-  |.timfayz| --Public projects backup
-  |dropbox|  --Personal local storage backup
-  |gdrive|   --Shared/cloud-access backups
-  |apps|     --Applications backup themselves
+Personal data backups
+  |etc|      --Linux system-wide settings
+  |dotfiles| --Linux application settings
+  |timfayz|  --Public projects
+  |dropbox|  --Personal local storage
+  |gdrive|   --Shared/cloud-access
+  |apps|     --Applications 
+    |email|
+      |gmail|
     |browsers|
       |firefox|
     |messengers|
       |telegram,whatsup,imo,vk,etc.|
     |services|
-      |couchsurfing,aliexpress,blablacar,etc.|
-    |email|
-      |gmail|
+      |couchsurfing,blablacar,etc.|
+    |shops|
+      |aliexpress,amazon,ozon,etc.|
+    |streaming|
+      |soundcloud,youtube,etc.|
     
-
