@@ -13,6 +13,8 @@ fi
 
 # Options
 # ---------------------------------------------------------------
+# Monitor
+xrandr -s 1368x768
 #xrandr --setprovideroutputsource modesetting NVIDIA-0
 #xrandr --auto
 
@@ -22,7 +24,7 @@ xset +dpms
 
 # Default background
 xsetroot -solid black
-display -window root ~/Desktop/wall.jpg
+display -window root ~/Desktop/wall/wall7.jpg
 
 # Keyboard
 setxkbmap -layout "us,ru" -option "grp:win_space_toggle" -option "compose:ralt"

@@ -11,7 +11,6 @@ alias 2="sudo loadkeys ru"
 alias _clip='xclip -selection clipboard'
 alias _iclip='xclip -selection clipboard -target image/png'
 alias s='sudo -E'
-alias sudo='sudo -E'
 
 export EDITOR='vis'
 export LESSHISTFILE=/dev/null
