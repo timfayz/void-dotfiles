@@ -8,7 +8,7 @@
 !.bash_profile
 !.gitconfig
 !.structure
-!.config/vis/**
+!.config/nvim/**
 !.config/zathura/**
 !.config/pcmanfm/**
 !.config/gpick/**

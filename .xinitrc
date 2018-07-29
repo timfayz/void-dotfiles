@@ -14,7 +14,6 @@ fi
 # Options
 # ---------------------------------------------------------------
 # Monitor
-xrandr -s 1368x768
 #xrandr --setprovideroutputsource modesetting NVIDIA-0
 #xrandr --auto
 
@@ -29,18 +28,18 @@ display -window root ~/Desktop/wall/wall7.jpg
 # Keyboard
 setxkbmap -layout "us,ru" -option "grp:win_space_toggle" -option "compose:ralt"
 
-# Statusbar 
+# Statusbar
 slstatus &>/dev/null &
 
 # Network
 nm-applet 1>/dev/null 2> .log_networkmanager &
 
-# Autolock 
+# Autolock
 xautolock -time 10 -locker slock &>/dev/null &
 
 # Dropbox
-dropbox start &>/dev/null 
-    
+dropbox start &>/dev/null
+
 # Start session
 # ---------------------------------------------------------------
 while true; do
