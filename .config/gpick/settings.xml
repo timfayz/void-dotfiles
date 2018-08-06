@@ -11,6 +11,13 @@
 </window>
 </converters>
 <generate_scheme type="dynv">
+<hsv_shift type="float" list="true"><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li></hsv_shift>
+<hue type="float">180</hue>
+<lightness type="float">0</lightness>
+<saturation type="float">100</saturation>
+<type type="int32">0</type>
+<wheel_locked type="bool">true</wheel_locked>
+<wheel_type type="int32">0</wheel_type>
 </generate_scheme>
 <layout_preview type="dynv">
 <css_selectors type="dynv">
@@ -43,12 +50,12 @@
 <secondary_color_source type="string"></secondary_color_source>
 <single_instance type="bool">true</single_instance>
 <start_in_tray type="bool">true</start_in_tray>
-<vertical_paned_position type="int32">663</vertical_paned_position>
+<vertical_paned_position type="int32">365</vertical_paned_position>
 <window type="dynv">
-<height type="int32">468</height>
-<width type="int32">756</width>
-<x type="int32">582</x>
-<y type="int32">43</y>
+<height type="int32">750</height>
+<width type="int32">1028</width>
+<x type="int32">1307</x>
+<y type="int32">605</y>
 </window>
 </main>
 <options type="dynv">
@@ -70,13 +77,13 @@
 <color type="color">1 1 1 4.59121e-41</color>
 </contrast>
 <expander type="dynv">
-<cmyk type="bool">false</cmyk>
+<cmyk type="bool">true</cmyk>
 <hsl type="bool">false</hsl>
 <hsv type="bool">true</hsv>
-<info type="bool">false</info>
+<info type="bool">true</info>
 <lab type="bool">false</lab>
 <lch type="bool">false</lch>
-<rgb type="bool">false</rgb>
+<rgb type="bool">true</rgb>
 <settings type="bool">false</settings>
 </expander>
 <lab type="dynv">
@@ -97,7 +104,7 @@
 <swatch type="dynv">
 <active_color type="int32">2</active_color>
 <color1 type="color">0.419608 0.470588 0.12549 0</color1>
-<color2 type="color">0.960784 0.964706 0.968627 0</color2>
+<color2 type="color">0.995 0.505 0 0</color2>
 <color3 type="color">0.0941176 0.0941176 0.0941176 0</color3>
 <color4 type="color">0.0941176 0.0941176 0.0941176 0</color4>
 <color5 type="color">0.0941176 0.0941176 0.0941176 0</color5>
@@ -113,7 +120,7 @@
 <end_color type="color">0.5 0.5 0.5 0</end_color>
 <middle_color type="color">0.5 0.5 0.5 0</middle_color>
 <start_color type="color">0.5 0.5 0.5 0</start_color>
-<steps1 type="int32">3</steps1>
+<steps1 type="int32">4</steps1>
 <steps2 type="int32">3</steps2>
 <type type="int32">0</type>
 </blend_colors>

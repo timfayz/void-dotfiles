@@ -3,6 +3,7 @@
 # Get the aliases and functions
 [ -f $HOME/.bashrc ] && . $HOME/.bashrc
 
+# Start X session
 if [[ $(tty) == /dev/tty1 ]]; then
-	startx -- &> $HOME/.log_xsession
+	startx -- &> /tmp/log_xsession
 fi

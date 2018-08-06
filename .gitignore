@@ -4,10 +4,10 @@
 !.Xresources
 !.tmux.conf
 !.inputrc
+!.zshrc
 !.bashrc
 !.bash_profile
 !.gitconfig
-!.structure
 !.config/nvim/**
 !.config/zathura/**
 !.config/pcmanfm/**
