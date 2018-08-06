@@ -111,7 +111,7 @@ vnoremap <LEADER>y "+y
 set showmode
 set showcmd
 " toggle statusline
-set laststatus=1
+set laststatus=2
 nnoremap <silent><LEADER>b :let &laststatus = &ls == 1 ? 2 : 0<CR>
 " set format
 set statusline=
