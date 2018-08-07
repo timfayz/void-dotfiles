@@ -8,6 +8,7 @@
 !.bashrc
 !.bash_profile
 !.gitconfig
+!.gnupg
 !.config/nvim/**
 !.config/zathura/**
 !.config/pcmanfm/**

@@ -3,13 +3,16 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+#lsflags=""
+
 # Prompt
 PS1='\u@\h \W\$ '
+#PS1='%n@%m %3~%(!.#.$)%(?.. [%?]) '
 
 # Alias staff
 alias 1="sudo loadkeys us"
 alias 2="sudo loadkeys ru"
-alias ls='ls --color=auto'
+alias ls='ls --color=auto --group-directories-first -F'
 alias ll='ls -la'
 alias vi=$EDITOR
 alias s='sudo -E'
@@ -63,3 +66,7 @@ alias -- -='cd -'
 
 # Base16 color scheme
 source ~/.timfayz/base16-shell/scripts/base16-default-dark.sh
+
+# Bash completion
+[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+	    . /usr/share/bash-completion/bash_completion
