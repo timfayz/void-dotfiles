@@ -6,7 +6,16 @@
 #lsflags=""
 
 # Prompt
-PS1='\u@\h \W\$ '
+# user and host
+PS1='\[\e[32m\u\]@\h '
+# working dir
+PS1+='\[\e[33m\w\]'
+# print code if != 0
+PS1+=' $(if [[ $? == 0 ]]; then echo ""; else echo \[\e[31m\][$?]; fi)'
+# reset coloring
+PS1+='\[\e[0m\]'
+# new line with typefield
+PS1+='\n\$ '
 #PS1='%n@%m %3~%(!.#.$)%(?.. [%?]) '
 
 # Alias staff
@@ -68,5 +77,5 @@ alias -- -='cd -'
 source ~/.timfayz/base16-shell/scripts/base16-default-dark.sh
 
 # Bash completion
-[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
-	    . /usr/share/bash-completion/bash_completion
+#[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+#. /usr/share/bash-completion/bash_completion

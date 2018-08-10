@@ -22,8 +22,8 @@ xset +dpms
 #xset s off
 
 # Default background
-xsetroot -solid black # built-in
-feh --bg-fill --no-fehbg ~/Desktop/wall/macro/macro4.jpg
+xsetroot -solid black # built-in, reset
+sh ~/.fehbg
 
 # Keyboard
 setxkbmap -layout "us,ru" -option "grp:win_space_toggle" -option "compose:ralt"

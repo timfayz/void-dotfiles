@@ -6,7 +6,6 @@
 	followTags = true
 [core]
 	autocrlf = input
-	editor = vis
 [alias]
 	st = status
 	s = status
