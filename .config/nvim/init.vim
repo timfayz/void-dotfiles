@@ -9,6 +9,9 @@ nnoremap <LEADER>ee :e<CR>
 " hightlight cursor
 set cursorline
 
+" Delete
+imap <C-D> <C-O>x
+
 " Raw paste mode
 set paste "(off)
 
