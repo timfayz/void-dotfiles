@@ -2,6 +2,23 @@
     "window.zoomLevel": 0,
     "editor.wordWrap": "on",
     "editor.fontSize": 16,
+    // https://github.com/Microsoft/vscode/issues/32579
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                // inspect TM scopes 
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment",
+                    "variable.language",
+                    "entity.other.attribute-name",
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
     "terminal.integrated.fontSize": 14,
     "workbench.activityBar.visible": false,
     "workbench.colorCustomizations": {
