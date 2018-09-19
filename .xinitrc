@@ -35,7 +35,7 @@ slstatus &>/dev/null &
 nm-applet 1>/dev/null 2> /tmp/log_networkmanager &
 
 # Autolock
-xautolock -time 10 -locker slock &>/dev/null &
+#xautolock -time 10 -locker slock &>/dev/null &
 
 # Dropbox
 dropbox start &>/dev/null
